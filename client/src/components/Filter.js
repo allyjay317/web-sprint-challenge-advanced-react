@@ -1,12 +1,6 @@
 import React, { useState } from 'react'
 import { useForm } from '../hooks/useForm'
 
-const initial = {
-    difficulty: '',
-    sizes: '',
-    watering: ''
-}
-
 function Filter(props){
    
     const handleSubmit = e =>{
